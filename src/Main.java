@@ -11,7 +11,12 @@ public class Main {
         listaTarefa.adicionarTarefa("tarefa 3");
         listaTarefa.adicionarTarefa("Tarefa 4");
         listaTarefa.adicionarTarefa("Tarefa 5");
-
         System.out.println("Agora o números de tarefas é: " + listaTarefa.obterNumeroTotalTarefas());
+
+        listaTarefa.removertarefa("Tarefa 1");
+        System.out.println("Depois da remoção das tarefas 1, ficamos com: " + listaTarefa.obterNumeroTotalTarefas());
+
+        listaTarefa.obterDescricaoTarefas();
+
     }
 }

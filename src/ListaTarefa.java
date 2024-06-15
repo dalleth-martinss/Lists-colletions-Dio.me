@@ -29,7 +29,8 @@ public class ListaTarefa {
     public int obterNumeroTotalTarefas(){                      //Nos retorna o tamanho da lista;
         return tarefaList.size();
     }
-    public void ObterDescricaoTarefas(){                       //Nos retorno a descrição das Tarefas;
-        System.out.println();
+    public void obterDescricaoTarefas(){                       //Nos retorno a descrição das Tarefas;
+        System.out.println(tarefaList);
+
     }
 }
